@@ -1,0 +1,49 @@
+nav > ul{
+  display: flex;
+}
+nav li{
+  list-style: none;
+  margin-right: 10px;
+}
+nav li:hover{
+  display: block;
+  background-color: lightgray;
+}
+nav li a{
+  text-decoration: none;
+  color: black;
+}
+/* Nested nav menu */
+nav li .dropdown{
+  display: none;
+  position: absolute;
+  background-color: lightyellow;
+  padding-left: 0;
+}
+nav li:hover > .dropdown{
+  display: block;
+}
+.table1 th, .table1 td{
+  border: 3px solid yellow;
+  background-color: brown;
+  
+}
+.table2 th, .table2 td{
+  background-color: aquamarine;
+}
+.photo-albums{
+  background-color: brown;
+}
+.album{
+  text-align: center;
+}
+.album2{
+  text-align: center;
+  background-color: black;
+  border: 2px solid blueviolet;
+  box-shadow: 10px 10px 10px grey;
+  height: 20px;
+  width: 50px;
+  margin-left: 41px;
+}
+
